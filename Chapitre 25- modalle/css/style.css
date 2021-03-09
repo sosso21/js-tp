@@ -1,0 +1,84 @@
+
+
+ul
+{
+    
+    height: 3em;
+    background-color: darkgray;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+    
+}
+
+.bg-hidden 
+{
+   background-color: rgba(0, 0, 0, 0.795);
+   z-index: -1;
+   
+    
+}
+
+
+
+li a , li a:hover
+{
+    color: #000;
+    text-decoration: none;
+    
+}
+
+
+
+.m-box-hidden
+{
+    
+    display: none;
+    visibility: hidden;
+  
+    
+}
+
+
+.m-box-visible
+{
+    
+    display: block;
+    visibility: visible;
+    
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    z-index: 2;
+    width: 50%;
+    max-height: 30em;
+    background-color: #ffff ;
+    border: black solid 0.1px;
+    border-radius: 1em;
+    margin: auto;
+    padding: 0.5em;
+    box-shadow: 0.5em 0.5em 0.5em 0.5em rgba(128, 128, 128, 0.548);
+    
+}
+
+aside .aside-text 
+{
+    max-height: 25em;
+    margin: 1em;
+    padding: 0.5em;
+    overflow-y: scroll;
+}
+
+.bottom
+{
+    display: flex;
+    justify-content: flex-end ;
+
+}
+.bottom a 
+{
+    margin: 1em;
+    font-size: 1.2em;
+}
